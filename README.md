@@ -1,5 +1,5 @@
 # mineTracker
-A man tracker inspired game mode for minecraft custom built for our server.
+A man tracker inspired game mode for minecraft custom built for our server. Built using the spigot/craftbukkit api. Can be compiled with either and run as a plugin.
 
 
 commands:
@@ -10,6 +10,8 @@ commands:
   
 The lobby queueing uses a queue data structure and sorts through it to fill the max number of lobbies. For now, this is only run when someone uses the /findlobby command.
 Later on this will also be run when a game is finished, as that lobby will now be open.
+
+Requires a world named LobbyWorld to be loaded on the server.
 
 Also there is a stark lack of commenting thus far. This is mostly because I wrote this in one sitting really really fast. I will go through this and add comments in a future commit.
 
