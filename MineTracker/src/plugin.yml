@@ -1,0 +1,11 @@
+name: mineTracker
+version: 1.0
+main: me.anCot.mineTracker.Main
+description: mineTracker!
+load: POSTWORLD
+
+commands:
+    findlobby:
+        usage: /<command> <game>
+    votestart:
+        usage: /<command> <game>
